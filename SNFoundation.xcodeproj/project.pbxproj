@@ -15,6 +15,24 @@
 		FAE058441E8B4BFC008C7B2A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAE058421E8B4BFC008C7B2A /* LaunchScreen.storyboard */; };
 		FAE0584F1E8B4BFC008C7B2A /* SNFoundationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FAE0584E1E8B4BFC008C7B2A /* SNFoundationTests.m */; };
 		FAE0585A1E8B4BFC008C7B2A /* SNFoundationUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FAE058591E8B4BFC008C7B2A /* SNFoundationUITests.m */; };
+		FAE058901E8B642C008C7B2A /* IPAddress.c in Sources */ = {isa = PBXBuildFile; fileRef = FAE0586A1E8B642C008C7B2A /* IPAddress.c */; };
+		FAE058911E8B642C008C7B2A /* NSArray+SNFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = FAE0586D1E8B642C008C7B2A /* NSArray+SNFoundation.m */; };
+		FAE058921E8B642C008C7B2A /* NSData+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = FAE0586F1E8B642C008C7B2A /* NSData+Base64.m */; };
+		FAE058931E8B642C008C7B2A /* NSData+Crypto.m in Sources */ = {isa = PBXBuildFile; fileRef = FAE058711E8B642C008C7B2A /* NSData+Crypto.m */; };
+		FAE058941E8B642C008C7B2A /* NSData+GZIP.m in Sources */ = {isa = PBXBuildFile; fileRef = FAE058731E8B642C008C7B2A /* NSData+GZIP.m */; };
+		FAE058951E8B642C008C7B2A /* NSData+SNFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = FAE058751E8B642C008C7B2A /* NSData+SNFoundation.m */; };
+		FAE058961E8B642C008C7B2A /* NSDate+SNFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = FAE058771E8B642C008C7B2A /* NSDate+SNFoundation.m */; };
+		FAE058971E8B642C008C7B2A /* NSDictionary+SNFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = FAE058791E8B642C008C7B2A /* NSDictionary+SNFoundation.m */; };
+		FAE058981E8B642C008C7B2A /* NSString+SNFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = FAE0587B1E8B642C008C7B2A /* NSString+SNFoundation.m */; };
+		FAE058991E8B642C008C7B2A /* SNCache.m in Sources */ = {isa = PBXBuildFile; fileRef = FAE0587D1E8B642C008C7B2A /* SNCache.m */; };
+		FAE0589A1E8B642C008C7B2A /* SNGraphics.m in Sources */ = {isa = PBXBuildFile; fileRef = FAE058811E8B642C008C7B2A /* SNGraphics.m */; };
+		FAE0589B1E8B642C008C7B2A /* SNSandBox.m in Sources */ = {isa = PBXBuildFile; fileRef = FAE058831E8B642C008C7B2A /* SNSandBox.m */; };
+		FAE0589C1E8B642C008C7B2A /* SNTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = FAE058851E8B642C008C7B2A /* SNTimer.m */; };
+		FAE0589D1E8B642D008C7B2A /* SystemInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = FAE058871E8B642C008C7B2A /* SystemInfo.m */; };
+		FAE0589E1E8B642D008C7B2A /* UIColor+SNFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = FAE058891E8B642C008C7B2A /* UIColor+SNFoundation.m */; };
+		FAE0589F1E8B642D008C7B2A /* UIImage+SNFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = FAE0588B1E8B642C008C7B2A /* UIImage+SNFoundation.m */; };
+		FAE058A01E8B642D008C7B2A /* UIView+SNFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = FAE0588D1E8B642C008C7B2A /* UIView+SNFoundation.m */; };
+		FAE058A11E8B642D008C7B2A /* UIWebView+SNFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = FAE0588F1E8B642C008C7B2A /* UIWebView+SNFoundation.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +69,44 @@
 		FAE058551E8B4BFC008C7B2A /* SNFoundationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SNFoundationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAE058591E8B4BFC008C7B2A /* SNFoundationUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SNFoundationUITests.m; sourceTree = "<group>"; };
 		FAE0585B1E8B4BFC008C7B2A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAE0586A1E8B642C008C7B2A /* IPAddress.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = IPAddress.c; sourceTree = "<group>"; };
+		FAE0586B1E8B642C008C7B2A /* IPAddress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IPAddress.h; sourceTree = "<group>"; };
+		FAE0586C1E8B642C008C7B2A /* NSArray+SNFoundation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+SNFoundation.h"; sourceTree = "<group>"; };
+		FAE0586D1E8B642C008C7B2A /* NSArray+SNFoundation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+SNFoundation.m"; sourceTree = "<group>"; };
+		FAE0586E1E8B642C008C7B2A /* NSData+Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+Base64.h"; sourceTree = "<group>"; };
+		FAE0586F1E8B642C008C7B2A /* NSData+Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Base64.m"; sourceTree = "<group>"; };
+		FAE058701E8B642C008C7B2A /* NSData+Crypto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+Crypto.h"; sourceTree = "<group>"; };
+		FAE058711E8B642C008C7B2A /* NSData+Crypto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Crypto.m"; sourceTree = "<group>"; };
+		FAE058721E8B642C008C7B2A /* NSData+GZIP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+GZIP.h"; sourceTree = "<group>"; };
+		FAE058731E8B642C008C7B2A /* NSData+GZIP.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+GZIP.m"; sourceTree = "<group>"; };
+		FAE058741E8B642C008C7B2A /* NSData+SNFoundation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+SNFoundation.h"; sourceTree = "<group>"; };
+		FAE058751E8B642C008C7B2A /* NSData+SNFoundation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+SNFoundation.m"; sourceTree = "<group>"; };
+		FAE058761E8B642C008C7B2A /* NSDate+SNFoundation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+SNFoundation.h"; sourceTree = "<group>"; };
+		FAE058771E8B642C008C7B2A /* NSDate+SNFoundation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+SNFoundation.m"; sourceTree = "<group>"; };
+		FAE058781E8B642C008C7B2A /* NSDictionary+SNFoundation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+SNFoundation.h"; sourceTree = "<group>"; };
+		FAE058791E8B642C008C7B2A /* NSDictionary+SNFoundation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+SNFoundation.m"; sourceTree = "<group>"; };
+		FAE0587A1E8B642C008C7B2A /* NSString+SNFoundation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+SNFoundation.h"; sourceTree = "<group>"; };
+		FAE0587B1E8B642C008C7B2A /* NSString+SNFoundation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+SNFoundation.m"; sourceTree = "<group>"; };
+		FAE0587C1E8B642C008C7B2A /* SNCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SNCache.h; sourceTree = "<group>"; };
+		FAE0587D1E8B642C008C7B2A /* SNCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SNCache.m; sourceTree = "<group>"; };
+		FAE0587E1E8B642C008C7B2A /* SNDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SNDefines.h; sourceTree = "<group>"; };
+		FAE0587F1E8B642C008C7B2A /* SNFoundation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SNFoundation.h; sourceTree = "<group>"; };
+		FAE058801E8B642C008C7B2A /* SNGraphics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SNGraphics.h; sourceTree = "<group>"; };
+		FAE058811E8B642C008C7B2A /* SNGraphics.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SNGraphics.m; sourceTree = "<group>"; };
+		FAE058821E8B642C008C7B2A /* SNSandBox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SNSandBox.h; sourceTree = "<group>"; };
+		FAE058831E8B642C008C7B2A /* SNSandBox.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SNSandBox.m; sourceTree = "<group>"; };
+		FAE058841E8B642C008C7B2A /* SNTimer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SNTimer.h; sourceTree = "<group>"; };
+		FAE058851E8B642C008C7B2A /* SNTimer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SNTimer.m; sourceTree = "<group>"; };
+		FAE058861E8B642C008C7B2A /* SystemInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SystemInfo.h; sourceTree = "<group>"; };
+		FAE058871E8B642C008C7B2A /* SystemInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SystemInfo.m; sourceTree = "<group>"; };
+		FAE058881E8B642C008C7B2A /* UIColor+SNFoundation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+SNFoundation.h"; sourceTree = "<group>"; };
+		FAE058891E8B642C008C7B2A /* UIColor+SNFoundation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+SNFoundation.m"; sourceTree = "<group>"; };
+		FAE0588A1E8B642C008C7B2A /* UIImage+SNFoundation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+SNFoundation.h"; sourceTree = "<group>"; };
+		FAE0588B1E8B642C008C7B2A /* UIImage+SNFoundation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+SNFoundation.m"; sourceTree = "<group>"; };
+		FAE0588C1E8B642C008C7B2A /* UIView+SNFoundation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+SNFoundation.h"; sourceTree = "<group>"; };
+		FAE0588D1E8B642C008C7B2A /* UIView+SNFoundation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+SNFoundation.m"; sourceTree = "<group>"; };
+		FAE0588E1E8B642C008C7B2A /* UIWebView+SNFoundation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIWebView+SNFoundation.h"; sourceTree = "<group>"; };
+		FAE0588F1E8B642C008C7B2A /* UIWebView+SNFoundation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWebView+SNFoundation.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +157,7 @@
 		FAE058331E8B4BFC008C7B2A /* SNFoundation */ = {
 			isa = PBXGroup;
 			children = (
+				FAE058691E8B642C008C7B2A /* SNFoundation */,
 				FAE058371E8B4BFC008C7B2A /* AppDelegate.h */,
 				FAE058381E8B4BFC008C7B2A /* AppDelegate.m */,
 				FAE0583A1E8B4BFC008C7B2A /* ViewController.h */,
@@ -138,6 +195,51 @@
 				FAE0585B1E8B4BFC008C7B2A /* Info.plist */,
 			);
 			path = SNFoundationUITests;
+			sourceTree = "<group>";
+		};
+		FAE058691E8B642C008C7B2A /* SNFoundation */ = {
+			isa = PBXGroup;
+			children = (
+				FAE0586A1E8B642C008C7B2A /* IPAddress.c */,
+				FAE0586B1E8B642C008C7B2A /* IPAddress.h */,
+				FAE0586C1E8B642C008C7B2A /* NSArray+SNFoundation.h */,
+				FAE0586D1E8B642C008C7B2A /* NSArray+SNFoundation.m */,
+				FAE0586E1E8B642C008C7B2A /* NSData+Base64.h */,
+				FAE0586F1E8B642C008C7B2A /* NSData+Base64.m */,
+				FAE058701E8B642C008C7B2A /* NSData+Crypto.h */,
+				FAE058711E8B642C008C7B2A /* NSData+Crypto.m */,
+				FAE058721E8B642C008C7B2A /* NSData+GZIP.h */,
+				FAE058731E8B642C008C7B2A /* NSData+GZIP.m */,
+				FAE058741E8B642C008C7B2A /* NSData+SNFoundation.h */,
+				FAE058751E8B642C008C7B2A /* NSData+SNFoundation.m */,
+				FAE058761E8B642C008C7B2A /* NSDate+SNFoundation.h */,
+				FAE058771E8B642C008C7B2A /* NSDate+SNFoundation.m */,
+				FAE058781E8B642C008C7B2A /* NSDictionary+SNFoundation.h */,
+				FAE058791E8B642C008C7B2A /* NSDictionary+SNFoundation.m */,
+				FAE0587A1E8B642C008C7B2A /* NSString+SNFoundation.h */,
+				FAE0587B1E8B642C008C7B2A /* NSString+SNFoundation.m */,
+				FAE0587C1E8B642C008C7B2A /* SNCache.h */,
+				FAE0587D1E8B642C008C7B2A /* SNCache.m */,
+				FAE0587E1E8B642C008C7B2A /* SNDefines.h */,
+				FAE0587F1E8B642C008C7B2A /* SNFoundation.h */,
+				FAE058801E8B642C008C7B2A /* SNGraphics.h */,
+				FAE058811E8B642C008C7B2A /* SNGraphics.m */,
+				FAE058821E8B642C008C7B2A /* SNSandBox.h */,
+				FAE058831E8B642C008C7B2A /* SNSandBox.m */,
+				FAE058841E8B642C008C7B2A /* SNTimer.h */,
+				FAE058851E8B642C008C7B2A /* SNTimer.m */,
+				FAE058861E8B642C008C7B2A /* SystemInfo.h */,
+				FAE058871E8B642C008C7B2A /* SystemInfo.m */,
+				FAE058881E8B642C008C7B2A /* UIColor+SNFoundation.h */,
+				FAE058891E8B642C008C7B2A /* UIColor+SNFoundation.m */,
+				FAE0588A1E8B642C008C7B2A /* UIImage+SNFoundation.h */,
+				FAE0588B1E8B642C008C7B2A /* UIImage+SNFoundation.m */,
+				FAE0588C1E8B642C008C7B2A /* UIView+SNFoundation.h */,
+				FAE0588D1E8B642C008C7B2A /* UIView+SNFoundation.m */,
+				FAE0588E1E8B642C008C7B2A /* UIWebView+SNFoundation.h */,
+				FAE0588F1E8B642C008C7B2A /* UIWebView+SNFoundation.m */,
+			);
+			path = SNFoundation;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -270,9 +372,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAE058941E8B642C008C7B2A /* NSData+GZIP.m in Sources */,
+				FAE0589A1E8B642C008C7B2A /* SNGraphics.m in Sources */,
+				FAE0589D1E8B642D008C7B2A /* SystemInfo.m in Sources */,
+				FAE0589F1E8B642D008C7B2A /* UIImage+SNFoundation.m in Sources */,
+				FAE058991E8B642C008C7B2A /* SNCache.m in Sources */,
+				FAE058951E8B642C008C7B2A /* NSData+SNFoundation.m in Sources */,
 				FAE0583C1E8B4BFC008C7B2A /* ViewController.m in Sources */,
+				FAE058971E8B642C008C7B2A /* NSDictionary+SNFoundation.m in Sources */,
+				FAE058A01E8B642D008C7B2A /* UIView+SNFoundation.m in Sources */,
+				FAE0589C1E8B642C008C7B2A /* SNTimer.m in Sources */,
+				FAE058931E8B642C008C7B2A /* NSData+Crypto.m in Sources */,
+				FAE058981E8B642C008C7B2A /* NSString+SNFoundation.m in Sources */,
+				FAE058961E8B642C008C7B2A /* NSDate+SNFoundation.m in Sources */,
+				FAE058911E8B642C008C7B2A /* NSArray+SNFoundation.m in Sources */,
+				FAE0589B1E8B642C008C7B2A /* SNSandBox.m in Sources */,
+				FAE0589E1E8B642D008C7B2A /* UIColor+SNFoundation.m in Sources */,
 				FAE058391E8B4BFC008C7B2A /* AppDelegate.m in Sources */,
 				FAE058361E8B4BFC008C7B2A /* main.m in Sources */,
+				FAE058901E8B642C008C7B2A /* IPAddress.c in Sources */,
+				FAE058A11E8B642D008C7B2A /* UIWebView+SNFoundation.m in Sources */,
+				FAE058921E8B642C008C7B2A /* NSData+Base64.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
